@@ -1,10 +1,11 @@
 import requests
 import json
+import os
 
 url = "https://youtube138.p.rapidapi.com/channel/videos/"
 headers = {
-	"X-RapidAPI-Key": "",
-	"X-RapidAPI-Host": ""
+	"X-RapidAPI-Key": str(os.environ['X-RapidAPI-Key']),
+	"X-RapidAPI-Host": str(os.environ['X-RapidAPI-Host'])
 }
 
 def youtube_data(id):
