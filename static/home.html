@@ -1,0 +1,9 @@
+{% from 'components.html' import card %}
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<div class="cards">
+    {% for video in videos %}
+        {{ card(video, channel_name, channel_logo) }}
+    {% endfor %}
+</div>
