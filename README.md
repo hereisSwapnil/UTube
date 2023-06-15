@@ -7,7 +7,7 @@ It displays channels that you have saved in the same way that Youtube does, it g
 
 ## Screenshots
 
-![Youtube Flask App](https://i.postimg.cc/zGM855H8/image.png)
+![Youtube Flask App](https://i.postimg.cc/43mkdRRs/image.png)
 
 
 ## Installation
